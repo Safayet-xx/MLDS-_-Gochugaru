@@ -18,8 +18,8 @@ Safayet | RL Baseline & Results, PyGoL Evaluation, Aleph Training
 ## Project Structure
 
 COMM075_Gochugaru/
-├── README.md                        ← you are here
-├── thread1_HAR/                     ← UCI HAR Dataset
+├── README.md                        
+├── thread1_HAR/                    
 │ 
 │   ├── EDA_HAR.ipynb
 │   ├── DecisionTree_HAR.ipynb
@@ -33,7 +33,7 @@ COMM075_Gochugaru/
 │       ├── nb_har/
 │       ├── pygol_har/
 │       └── comparison_har/
-├── thread2_phiusiil/                ← PhiUSIIL Phishing Dataset
+├── thread2_phiusiil/                
 │ 
 │   ├── 01_eda_phiusiil.ipynb
 │   ├── 02_aleph_phiusiil.ipynb
@@ -48,7 +48,7 @@ COMM075_Gochugaru/
 │       ├── svm_phiusiil/
 │       ├── mlp_phiusiil/
 │       └── thread2_comparison/
-└── thread3_RL/                      ← Yahoo Finance Stock Trading
+└── thread3_RL/                      
     
     ├── yahoo_rl.ipynb
     ├── yahoo_data.py
