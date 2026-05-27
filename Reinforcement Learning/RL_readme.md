@@ -122,22 +122,40 @@ Each member adds clearly labelled cells to the shared notebook:
     - Distribution shift discussion
 ```
 
-
-
+# run this 
+```bash
+pip install -r requirements.txt
+```
 # with proper venv instalation and setup  
 
+## Environment Setup
+
+**Python version:** 3.9 or above
+
+**Create and activate virtual environment:**
 ```bash
-# Step 1 — download data and generate CSVs
-python yahoo_data.py
+python -m venv venv
 
-# Step 2 — train the Q-learning agent
-python yahoo_evo.py
+# Windows
+venv\Scripts\activate
 
-# Step 3 — evaluate on test set
-python yahoo_evF.py
+# Mac / Linux
+source venv/bin/activate
+```
 
-# Step 4 — run buy-and-hold baseline
-python yahoo_test.py
+**Install dependencies:**
+```bash
+pip install -r requirements.txt
+```
+
+**Run the project in order:**
+```bash
+python yahoo_data.py      
+python yahoo_env.py       
+python yahoo_qagent.py   
+python train.py          
+python evaluate.py        
+```
 
 # Step 5 — open the notebook and run all cells in order
 jupyter notebook yahoo_rl.ipynb
