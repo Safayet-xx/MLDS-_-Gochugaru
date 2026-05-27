@@ -1,0 +1,1 @@
+phishing(A) :-   low_noofimage(A), no_hascopyrightinfo(A).phishing(A) :-   high_noofotherspecialcharsinurl(A), med_noofjs(A), no_hasdescription(A).phishing(A) :-   no_ishttps(A).phishing(A) :-   low_urlsimilarityindex(A).
